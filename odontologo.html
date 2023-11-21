@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Proyecto Integrador</title>
+  </head>
+  <body>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <!-- Header  -> DEBE SER MODIFICADO EN TODOS LOS HTML-->
+      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+        <!-- Navegacion -->
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <!-- Logo -->
+            <div class="site-logo">
+              <a href="index.html" class="text-black"><span class="text-primary">Dental Care</a>
+            </div>
+
+            <!-- Contenedor de botones -->
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+
+                  <!-- Inicio -->
+                  <li><a href="index.html" class="nav-link">Inicio</a></li>
+                  
+                  <!-- Odontologos -->
+                  <li class="has-children">
+                    <a href="odontologo.html" class="nav-link">Odontologos</a>
+                    <ul class="dropdown arrow-top">
+                      <li><a href="#team-section" class="nav-link">Registrar nuevo odontologo</a></li>
+                      <li><a href="#pricing-section" class="nav-link">Listar todos los odontologos</a></li>
+                      <li><a href="#faq-section" class="nav-link">Eliminar odontologo</a></li>
+                      <li class="has-children">
+                        <a href="#">Modificar odontologo</a>
+                        <ul class="dropdown">
+                          <li><a href="#">Modificar nombre</a></li>
+                          <li><a href="#">Modificar apellido</a></li>
+                          <li><a href="#">Modificar matricula</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Pacientes -->
+                  <li class="has-children">
+                    <a href="paciente.html" class="nav-link">Pacientes</a>
+                    <ul class="dropdown arrow-top">
+                      <li><a href="#team-section" class="nav-link">Registrar nuevo paciente</a></li>
+                      <li><a href="#pricing-section" class="nav-link">Listar todos los pacientes</a></li>
+                      <li><a href="#faq-section" class="nav-link">Eliminar paciente</a></li>
+                      <li class="has-children">
+                        <a href="#">Modificar paciente</a>
+                        <ul class="dropdown">
+                          <li><a href="#">Modificar nombre</a></li>
+                          <li><a href="#">Modificar apellido</a></li>
+                          <li><a href="#">Modificar DNI</a></li>
+                          <li><a href="#">Modificar fecha ingreso</a></li>
+                          <li><a href="#">Modificar domicilio</a></li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+                  </li>
+
+                  <!-- Turnos -->
+                  <li class="has-children">
+                    <a href="turno.html" class="nav-link">Turnos</a>
+                    <ul class="dropdown arrow-top">
+                      <li><a href="#team-section" class="nav-link">Nuevo turno</a></li>
+                      <li><a href="#pricing-section" class="nav-link">Eliminar turno</a></li>
+                      <li><a href="#faq-section" class="nav-link">Modificar turno</a></li>
+                      
+                    </ul>
+                  </li>
+
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+        </div>
+
+      </header>
+
+      <!-- Formulario odontologo-->
+      <form action="/action_page.php">
+        <div class="formcontainer">
+        <div class="form-container-align">
+          <div>
+          <label for="uname"><strong>Nombre odontologo</strong></label>
+          <input type="text" placeholder="Ej: Juan" name="uname" required>
+        </div>
+        <div>
+          <label for="uname"><strong>Apellido odontologo</strong></label>
+          <input type="text" placeholder="Ej: Perez" name="uname" required>
+        </div>
+        <div>
+          <label for="psw"><strong>Matricula odontologo</strong></label>
+          <input type="text" placeholder="Ej: 567345" required>
+        </div>
+        </div>
+        <div>
+        <button type="submit"><strong>Aceptar</strong></button> 
+      </div>
+      </form>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
